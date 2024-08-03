@@ -60,18 +60,18 @@ function App() {
     });
     return (
         <div
-            className="font-montserrat pt-10 bg-black text-slate-50 "
+            className="font-montserrat bg-black text-slate-50 "
             onSubmit={formik.handleSubmit}
         >
-            <div className="max-w-4xl mx-auto pt-6 px-8">
+            <div className="max-w-4xl mx-auto pt-8 px-8">
                 <section className="text-center mb-12">
                     <h1 className="text-4xl font-bold">Online Group Fitness Program!</h1>
-                    <p className="mt-6 font-semibold">
+                    <p className="mt-10 font-semibold">
                         Join us to transform your fitness journey with the best in the
                         industry. Our expert trainers bring passion and experience to every
                         session, ensuring you achieve your fitness goals.
                     </p>
-                    <p className="mt-4 font-semibold">
+                    <p className="mt-7 font-semibold">
                         Enjoy a diverse range of workouts, including high-intensity
                         CrossFit🏋, Pilates🧎, and dance🕺 fitness, all designed to enhance
                         your strength, flexibility, and overall well-being.
