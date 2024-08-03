@@ -6,7 +6,7 @@ const OpenEnd = ({ type, questionId, questionText, formik }) => {
 				type={type}
 				name={questionId}
 				id={questionId}
-				className="rounded-md text-slate-900 bg-slate-100 focus-visible:ring-fuchsia-500 focus:ring-2"
+				className="rounded-md text-white bg-black focus-visible:ring-fuchsia-500 focus:ring-2"
 				onChange={formik.handleChange}
 				value={formik.values[questionId]}
 				onBlur={formik.handleBlur}
