@@ -175,8 +175,11 @@ function App() {
                     formik={formik}
                 />
                 <div className="text-center">
-                    <div className="button-rainbow-container mx-auto mt-9 before:absolute before:top-0 before:left-0 before:h-full before:w-full before:block hover:before:blur-lg active:before:blur-lg z-[1] before:-z-10">
-                        <button type="submit" className="button-rainbow z-[3]">
+                    <div
+                        className="button-rainbow-container mx-auto mt-9 before:absolute before:top-0 before:left-0 before:h-full before:w-full before:block hover:before:blur-lg active:before:blur-lg z-[1] before:-z-10 w-full max-w-96
+                        "
+                    >
+                        <button type="submit" className="button-rainbow z-[3] w-full">
                             Book a slot
                         </button>
                     </div>
