@@ -63,7 +63,7 @@ function App() {
             className="font-montserrat bg-black text-slate-50 "
             onSubmit={formik.handleSubmit}
         >
-            <div className="max-w-4xl mx-auto pt-8 px-8">
+            <div className="max-w-4xl mx-auto pt-12 px-8">
                 <section className="text-center mb-12">
                     <h1 className="text-4xl font-bold">Online Group Fitness Program!</h1>
                     <p className="mt-10 font-semibold">
