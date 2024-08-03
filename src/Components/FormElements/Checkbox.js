@@ -3,7 +3,7 @@ import { useId } from "react";
 const Checkbox = ({ questionId, questionText, answers, formik }) => {
 	const id = useId();
 	return (
-		<span className="block mb-9 p-3 border-slate-800 border-2 rounded-md">
+		<span className="block mb-9 p-3 border-fuchsia-950 border-2 rounded-md">
 			<span className="font-semibold block mb-2">
 				{questionText}
 				{formik.touched[questionId] && formik.errors[questionId] ? (
