@@ -4,7 +4,7 @@ const Dropdown = ({ questionId, questionText, answers, formik }) => {
 			<label htmlFor={questionId} className="block font-semibold">
 				{questionText}
 			</label>
-			<span className="mb-7 block">
+			<span className="mb-9 block">
 				<select
 					name={questionId}
 					id={questionId}
