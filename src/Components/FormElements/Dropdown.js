@@ -13,10 +13,10 @@ const Dropdown = ({ questionId, questionText, answers, formik }) => {
 					onBlur={formik.handleBlur}
 					value={formik.values.timing}
 				>
-					<option value="" className="bg-slate-600"></option>
+					<option value="" className="bg-black"></option>
 					{answers.map((answer, index) => {
 						return (
-							<option value={answer} className="bg-slate-600" key={index}>
+							<option value={answer} className="bg-black" key={index}>
 								{answer}
 							</option>
 						);
