@@ -19,7 +19,7 @@ const Checkbox = ({ questionId, questionText, answers, formik }) => {
 							id={answerId}
 							name={questionId}
 							value={answer}
-							className="mr-2 text-fuchsia-500"
+							className="mr-2 text-fuchsia-500 bg-black"
 							onChange={formik.handleChange}
 							onBlur={formik.handleBlur}
 						/>

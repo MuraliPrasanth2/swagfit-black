@@ -6,7 +6,6 @@ import Dropdown from "./Components/FormElements/Dropdown";
 import OpenEnd from "./Components/FormElements/OpenEnd";
 import Checkbox from "./Components/FormElements/Checkbox";
 import Radio from "./Components/FormElements/Radio";
-import TextArea from "./Components/FormElements/TextArea";
 
 const formSchema = Yup.object().shape({
     name: Yup.string()
@@ -27,7 +26,7 @@ const formSchema = Yup.object().shape({
             return val.toString().length === 10;
         }),
     occupation: Yup.string().required("Please specify your occupation."),
-    address: Yup.string().required("Please specify your address."),
+    address: Yup.string().required("Please provide your answer."),
     timing: Yup.string().required("Please select a slot"),
     fitnessProgramNames: Yup.string().required("Please provide an answer."),
     fitnessGoals: Yup.array().min(1, "Please select your fitness goals."),
@@ -126,9 +125,10 @@ function App() {
                     questionText={"What is your current occupation?"}
                     formik={formik}
                 />
-                <TextArea
+                <OpenEnd
+                    type="text"
                     questionId={"address"}
-                    questionText={"Please specify your address."}
+                    questionText={"Please specify your location(city, area name)."}
                     formik={formik}
                 />
                 <Checkbox
